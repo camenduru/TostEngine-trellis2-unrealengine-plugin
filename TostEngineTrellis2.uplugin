@@ -1,0 +1,47 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "5.7",
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "TostEngine TRELLIS 2",
+	"Description": "Unreal Engine plugin for TostEngine TRELLIS 2 3D generation services",
+	"Category": "AI",
+	"CreatedBy": "TostEngine",
+	"CreatedByURL": "",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "TostEngineTrellis2",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"CoreUObject",
+				"Engine",
+				"Slate",
+				"SlateCore",
+				"HTTP",
+				"HttpServer",
+				"Json",
+				"JsonUtilities"
+			]
+		},
+		{
+			"Name": "TostEngineTrellis2Editor",
+			"Type": "Editor",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"TostEngineTrellis2",
+				"UnrealEd",
+				"EditorStyle",
+				"PropertyEditor",
+				"BlueprintGraph"
+			]
+		}
+	]
+}
