@@ -1,4 +1,4 @@
-# 🍞 Tost Engine TRELLIS 2
+# 🍞 Tost Engine TRELLIS 2 Unreal Engine Plugin
 
 A comprehensive Unreal Engine plugin that integrates TRELLIS 2 AI model for generating high-quality 3D models from 2D images. This plugin provides a user-friendly interface within the Unreal Editor for seamless 3D content creation.
 
@@ -228,3 +228,4 @@ TostEngineTrellis2/
 ## License
 
 MIT License
+
